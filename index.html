@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邓文超的个人博客</title>
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/png" href="images/profile.jpg">
+    <!-- SEO 优化 -->
+    <meta name="description" content="邓文超的个人博客 - 分享技术与生活">
+    <meta name="keywords" content="邓文超, 个人博客, 技术分享, 生活记录">
+    <meta name="author" content="邓文超">
+    <!-- CSS 依赖 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">邓文超的博客</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">关于我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">作品集</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">联系方式</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页内容 -->
+    <div id="main-content">
+        <!-- 轮播图部分 -->
+        <section id="home" class="carousel-section">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h2>欢迎来到我的个人网站</h2>
+                            <p>这里是我的个人作品展示空间</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 关于我部分 -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-image">
+                            <img src="images/profile.jpg" alt="个人照片" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="personal-info text-center">
+                            <h3>邓文超</h3>
+                            <p class="text-muted">那些曾经走过的路</p>
+                            <div class="contact-info">
+                                <p><i class="fas fa-envelope"></i> 1361395920@qq.com</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 温州</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="about-content">
+                            <h2 class="section-title">关于我</h2>
+                            <p class="lead">热爱技术，专注创新，追求卓越</p>
+                            <div class="about-text">
+                                <p>我是一名拥有5年工作经验的全栈开发工程师，专注于Web应用开发和人工智能应用。在过去的工作中，我参与并主导了多个大型项目的开发，包括电商平台、企业管理系统和AI应用等。</p>
+                                <p>我热衷于学习新技术，并善于将技术转化为解决实际问题的方案。在工作之余，我也积极参与开源社区，为多个项目贡献代码。</p>
+                            </div>
+                            <div class="skills">
+                                <h3>专业技能</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="skill-item">
+                                            <span class="skill-name">Web前端开发</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                            </div>
+                                            <small class="text-muted">HTML5, CSS3, JavaScript, Vue.js, React</small>
+                                        </div>
+                                        <div class="skill-item">
+                                            <span class="skill-name">后端开发</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                            </div>
+                                            <small class="text-muted">Python, Node.js, Java, MySQL</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="skill-item">
+                                            <span class="skill-name">人工智能</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                            </div>
+                                            <small class="text-muted">机器学习, 深度学习, NLP</small>
+                                        </div>
+                                        <div class="skill-item">
+                                            <span class="skill-name">开发工具</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                                            </div>
+                                            <small class="text-muted">Git, Docker, Linux, VS Code</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education mt-4">
+                                <h3>教育背景</h3>
+                                <div class="education-item">
+                                    <h4>计算机科学与技术</h4>
+                                    <p class="text-muted">北京大学 | 2015-2019</p>
+                                    <p>主修课程：数据结构、算法分析、计算机网络、操作系统、数据库系统等</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品集部分 -->
+        <section id="portfolio" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">作品集</h2>
+                <p class="section-description text-center">这里展示了我的一些代表作品</p>
+                <div class="row g-4">
+                    <!-- 作品项目1 -->
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <img src="images/project1.jpg" alt="项目1" class="img-fluid">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-info">
+                                        <h4>智能助手系统</h4>
+                                        <p>基于AI的智能对话系统</p>
+                                        <a href="#" class="btn btn-primary">查看详情</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 作品项目2 -->
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <img src="images/project2.jpg" alt="项目2" class="img-fluid">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-info">
+                                        <h4>电商平台</h4>
+                                        <p>现代化的电子商务解决方案</p>
+                                        <a href="#" class="btn btn-primary">查看详情</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 作品项目3 -->
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <img src="images/project3.jpg" alt="项目3" class="img-fluid">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-info">
+                                        <h4>社交媒体应用</h4>
+                                        <p>创新的社交互动平台</p>
+                                        <a href="#" class="btn btn-primary">查看详情</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- AI助手悬浮按钮 -->
+    <button class="ai-assistant-btn">
+        <i class="fas fa-robot"></i>
+    </button>
+
+    <!-- AI助手对话框 -->
+    <div class="chat-modal">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h5>AI助手</h5>
+                <button class="close-chat-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-messages">
+                <!-- 消息内容将通过JavaScript动态添加 -->
+            </div>
+            <div class="chat-input-area">
+                <textarea class="chat-input" placeholder="输入消息..."></textarea>
+                <button class="send-btn">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                <a href="#" class="social-link wechat"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 个人主页. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript 依赖 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/lib/highlight.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
